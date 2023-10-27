@@ -1,5 +1,4 @@
 "use client";
-yarn run dev
 
 import { Container } from "@mantine/core";
 import { useAppProvider } from "../layout";
