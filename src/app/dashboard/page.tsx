@@ -45,7 +45,7 @@ export default () => {
           dragThreshold={0.1}
           disableEdgeSwiping
           // withoutControls
-          slidesToShow={8}
+          slidesToShow={5}
           cellSpacing={10}
           renderBottomCenterControls={() => {
             return null;
@@ -56,7 +56,7 @@ export default () => {
             nextSlide,
           }) => {
             return (
-              currentSlide !== slideCount - 8 && (
+              currentSlide !== slideCount - 5 && (
                 <ActionIcon size={"xl"} color="orange" onClick={nextSlide}>
                   <IconArrowRight />
                 </ActionIcon>
